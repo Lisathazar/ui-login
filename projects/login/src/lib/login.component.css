@@ -1,0 +1,31 @@
+input{
+    border: none;
+    border-bottom: 2px solid blue;
+  }
+
+input:focus {
+    border: none;
+    border-bottom: 2px solid grey;
+ }
+input:invalid{
+    border: none;
+    border-bottom: 2px solid red;
+}
+input:valid{
+    border: none;
+    border-bottom: 2px solid green;
+}
+form{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: space-between;
+    align-self: center;
+}
+.container{
+    width: 20em;
+    height: 40em;
+}
+button{
+    width: 15em;
+}
