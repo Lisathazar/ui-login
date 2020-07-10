@@ -14,4 +14,4 @@ import { CommonModule } from '@angular/common';
   ],
   exports: [LoginComponent]
 })
-export class LoginModule { }
+export class LabAuthModule { }

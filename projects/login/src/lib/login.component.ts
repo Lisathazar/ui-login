@@ -49,6 +49,6 @@ public loginForm: FormGroup;
 
   login() {
     this.isLoading = true;
-    this.formValue = this.loginForm.value;
+    this.formValue.emit(this.loginForm.value);
   }
 }

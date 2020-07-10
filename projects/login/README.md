@@ -1,4 +1,4 @@
-# Login
+# 
 
 This library was generated with [Angular CLI](https://github.com/angular/angular-cli) version 9.0.7.
 
@@ -9,15 +9,15 @@ Run `ng generate component component-name --project login` to generate a new com
 
 ## Build
 
-Run `ng build login` to build the project. The build artifacts will be stored in the `dist/` directory.
+Run `ng build labauth` to build the project. The build artifacts will be stored in the `dist/` directory.
 
 ## Publishing
 
-After building your library with `ng build login`, go to the dist folder `cd dist/login` and run `npm publish`.
+After building your library with `ng build labauth, go to the dist folder `cd dist/labauth` and run `npm publish`.
 
 ## Running unit tests
 
-Run `ng test login` to execute the unit tests via [Karma](https://karma-runner.github.io).
+Run `ng test labauth` to execute the unit tests via [Karma](https://karma-runner.github.io).
 
 ## Further help
 
