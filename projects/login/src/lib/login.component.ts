@@ -1,4 +1,4 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, OnInit, Output, EventEmitter } from '@angular/core';
 import { FormGroup, FormBuilder, Validators } from '@angular/forms';
 
 @Component({
@@ -22,6 +22,8 @@ public loginForm: FormGroup;
   public isLoading: boolean;
   showPassword = false;
   passwordToggleIcon = 'eye';
+  @Output() formValue: EventEmitter<any> = new EventEmitter();
+
 
   constructor(
    private formBuilder: FormBuilder
@@ -47,5 +49,6 @@ public loginForm: FormGroup;
 
   login() {
     this.isLoading = true;
+    this.formValue = this.loginForm.value;
   }
 }
